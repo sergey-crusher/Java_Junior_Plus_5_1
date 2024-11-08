@@ -5,6 +5,13 @@ public class Calculator {
         return a + b;
     }
 
+    public double add(String a, String b){
+        double lA = Double.parseDouble(a);
+        double lB = Double.parseDouble(b);
+
+        return lA + lB;
+    }
+
     public double subtraction(double a, double b) {
         return a - b;
     }
